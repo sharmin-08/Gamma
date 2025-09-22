@@ -28,5 +28,12 @@ double trapezoidal(double a, double b, int n)
 }
 int main()
 {
-    
+ double a = 0.0, b = 1.0; // integration limits
+    int n;                   // number of intervals
+    cin >> n;
+      if (n <= 0)
+    {
+        cout << "Number of subintervals must be positive." << endl;
+        return 0;
+    }   
 }
