@@ -5,7 +5,17 @@ double f(double x)
 {
     return exp(-x * x);
 }
-
+/**
+ * Trapezoidal Rule implementation
+ * a lower limit
+ * b upper limit
+ * n number of subintervals
+ * return approximate integral value
+ */
+double trapezoidal(double a, double b, int n)
+{
+    double h = (b - a) / n; // step size
+}
 int main()
 {
     
