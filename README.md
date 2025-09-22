@@ -1,0 +1,1 @@
+# Trapezoidal Rule for Numerical Integrationgit
