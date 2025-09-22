@@ -18,6 +18,13 @@ double trapezoidal(double a, double b, int n)
     double sum = 0.0;
    // first and last terms
     sum += f(a) + f(b);
+    // intermediate terms
+    for (int i = 1; i < n; i++)
+    {
+        double x = a + i * h;
+        sum += 2 * f(x);
+    }
+   return (h / 2) * sum;
 }
 int main()
 {
