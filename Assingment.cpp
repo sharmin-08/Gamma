@@ -15,6 +15,9 @@ double f(double x)
 double trapezoidal(double a, double b, int n)
 {
     double h = (b - a) / n; // step size
+    double sum = 0.0;
+   // first and last terms
+    sum += f(a) + f(b);
 }
 int main()
 {
