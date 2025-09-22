@@ -8,3 +8,17 @@ This project provides a C++ implementation of the Trapezoidal Rule for approxima
 
 -   To apply the numerical method of the trapezoidal rule to a specific function.
 -   To show how increasing the number of subintervals (`n`) improves the accuracy of the approximation.
+
+## Method / Formula
+
+The core of the program is the trapezoidal rule, which approximates the area under a curve by dividing it into a series of trapezoids.
+
+The formula used is:
+
+I ≈ (h / 2) * [ f(a) + f(b) + 2 * Σ f(a + i*h) ]
+
+Where:
+- a = lower limit (0)
+- b = upper limit (1)
+- h = (b - a) / n
+- n = number of subintervals (user input)
