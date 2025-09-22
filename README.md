@@ -29,4 +29,14 @@ Where:
 - f(x) function calculates e^(-x^2)
 - trapezoidal(a, b, n) applies the trapezoidal rule
 - User can input n to control accuracy
-  
+
+  ##  How to Run
+
+1. *Compile:*
+   
+   g++ trapezoidal.cpp -o trapezoidal
+   
+
+2. *Execute:*
+   
+   ./trapezoidal
