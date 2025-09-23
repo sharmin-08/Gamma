@@ -50,3 +50,7 @@ Enter the number of subintervals (n): 1000
 
 **Output:**
 Trapezoidal Approximation = 0.74682
+
+##  Results
+
+The program outputs the numerical approximation of the integral for the given number of subintervals. By increasing the value of n, users can observe the approximation converging towards the true value of the integral, demonstrating the principle that a greater number of intervals leads to higher accuracy.
