@@ -1,4 +1,4 @@
-# Trapezoidal Rule for Numerical Integrationgit
+#  Implementation of the Trapezoidal Rule for Numerical Integration.
 
 ## Overview
 
