@@ -35,5 +35,10 @@ int main()
     {
         cout << "Number of subintervals must be positive." << endl;
         return 0;
-    }   
+    } 
+    double approx = trapezoidal(a, b, n);
+    // Set the output to a fixed-point notation with 5 decimal places.
+        cout << fixed << setprecision(5);
+    // Print the calculated trapezoidal approximation.
+    cout << "Trapezoidal Approximation = " << approx << endl;
 }
