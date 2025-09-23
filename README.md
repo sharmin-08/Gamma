@@ -40,3 +40,13 @@ Where:
 2. *Execute:*
    
    ./trapezoidal
+
+##  Example
+
+Here is a sample execution of the program:
+
+**Input:**
+Enter the number of subintervals (n): 1000
+
+**Output:**
+Trapezoidal Approximation = 0.74682
